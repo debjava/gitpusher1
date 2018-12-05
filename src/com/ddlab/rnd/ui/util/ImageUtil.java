@@ -17,7 +17,7 @@ public class ImageUtil {
           .getFieldDecoration(FieldDecorationRegistry.DEC_ERROR)
           .getImage();
   
-//  public static Image getImage(String fileName) {
-//	  return Activator.getImageDescriptor("/icons/"+fileName).createImage();
-//  }
+  public static Image getImage(String fileName) {
+	  return Activator.getImageDescriptor("/icons/"+fileName).createImage();
+  }
 }
